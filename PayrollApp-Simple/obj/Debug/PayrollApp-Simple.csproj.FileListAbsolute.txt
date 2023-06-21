@@ -1,0 +1,10 @@
+C:\Users\Owner\source\repos\PayrollApp-Simple\PayrollApp-Simple\bin\Debug\PayrollApp-Simple.exe.config
+C:\Users\Owner\source\repos\PayrollApp-Simple\PayrollApp-Simple\bin\Debug\PayrollApp-Simple.exe
+C:\Users\Owner\source\repos\PayrollApp-Simple\PayrollApp-Simple\bin\Debug\PayrollApp-Simple.pdb
+C:\Users\Owner\source\repos\PayrollApp-Simple\PayrollApp-Simple\obj\Debug\PayrollApp-Simple.csproj.AssemblyReference.cache
+C:\Users\Owner\source\repos\PayrollApp-Simple\PayrollApp-Simple\obj\Debug\PayrollApp_Simple.Form1.resources
+C:\Users\Owner\source\repos\PayrollApp-Simple\PayrollApp-Simple\obj\Debug\PayrollApp_Simple.Properties.Resources.resources
+C:\Users\Owner\source\repos\PayrollApp-Simple\PayrollApp-Simple\obj\Debug\PayrollApp-Simple.csproj.GenerateResource.cache
+C:\Users\Owner\source\repos\PayrollApp-Simple\PayrollApp-Simple\obj\Debug\PayrollApp-Simple.csproj.CoreCompileInputs.cache
+C:\Users\Owner\source\repos\PayrollApp-Simple\PayrollApp-Simple\obj\Debug\PayrollApp-Simple.exe
+C:\Users\Owner\source\repos\PayrollApp-Simple\PayrollApp-Simple\obj\Debug\PayrollApp-Simple.pdb
