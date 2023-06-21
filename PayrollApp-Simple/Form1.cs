@@ -107,11 +107,20 @@ namespace PayrollApp_Simple
                         using (StreamWriter sw = new StreamWriter(new FileStream(sfd.FileName, FileMode.Create), Encoding.UTF8))
                         {
                             StringBuilder sb = new StringBuilder();
-                            sb.AppendLine(string.Format("{0},{1},{2},{3},{4}", lst_display.Columns[0].Text, lst_display.Columns[1].Text, lst_display.Columns[2].Text, lst_display.Columns[3].Text, lst_display.Columns[4].Text));
+                            sb.AppendLine(string.Format(
+                                "{0},{1},{2},{3},{4}", 
+                                lst_display.Columns[0].Text, 
+                                lst_display.Columns[1].Text, 
+                                lst_display.Columns[2].Text, 
+                                lst_display.Columns[3].Text, 
+                                lst_display.Columns[4].Text));
+
                             foreach (ListViewItem item in lst_display.Items)
                             {
                                 sb.AppendLine(string.Format("{0},{1},{2},{3},{4}", item.SubItems[0].Text, item.SubItems[1].Text, item.SubItems[2].Text, item.SubItems[3].Text, item.SubItems[4].Text));
                             }
+                            sb.AppendLine("\n");                     
+                            sb.AppendLine(string.Format("Total Hours: ", payroll.calc_hours()));
                             await sw.WriteLineAsync(sb.ToString());
                             MessageBox.Show("Data Saved.", "Success!", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         }

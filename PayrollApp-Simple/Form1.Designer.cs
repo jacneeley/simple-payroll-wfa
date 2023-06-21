@@ -64,7 +64,7 @@ namespace PayrollApp_Simple
             this.lst_display.Location = new System.Drawing.Point(413, 14);
             this.lst_display.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lst_display.Name = "lst_display";
-            this.lst_display.Size = new System.Drawing.Size(555, 398);
+            this.lst_display.Size = new System.Drawing.Size(607, 398);
             this.lst_display.TabIndex = 0;
             this.lst_display.UseCompatibleStateImageBehavior = false;
             this.lst_display.View = System.Windows.Forms.View.Details;
@@ -96,7 +96,7 @@ namespace PayrollApp_Simple
             // 
             // btn_export
             // 
-            this.btn_export.Location = new System.Drawing.Point(643, 434);
+            this.btn_export.Location = new System.Drawing.Point(663, 434);
             this.btn_export.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_export.Name = "btn_export";
             this.btn_export.Size = new System.Drawing.Size(117, 49);

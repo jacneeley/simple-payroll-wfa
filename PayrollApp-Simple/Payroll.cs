@@ -8,13 +8,7 @@ namespace PayrollApp_Simple
 {
     public class Payroll
     {
-        private List<Employee> employeeList;
-
-        public List<Employee> EmployeeList
-        {
-            get { return employeeList; }
-            set { employeeList = value; }
-        }
+        public List<Employee> EmployeeList { get; set; }
 
         public Payroll()
         {
